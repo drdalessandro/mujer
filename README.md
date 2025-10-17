@@ -1,5 +1,5 @@
-<h1 align="center">Foo Medical</h1>
-<p align="center">A free and open-source healthcare webapp from the Medplum team.</p>
+<h1 align="center">Programa Mujer</h1>
+<p align="center">A free and open-source healthcare webapp based on Foomedical from the Medplum team.</p>
 <p align="center">
   <a href="https://github.com/medplum/foomedical/actions">
     <img src="https://github.com/medplum/foomedical/actions/workflows/build.yml/badge.svg" />
@@ -12,56 +12,48 @@
   </a>
 </p>
 
-![Foo Medical Screenshot](screenshot.png)
+![Programa Mujer Screenshot](screenshot.png)
 
-### What is Foo Medical?
+### Qué es Programa Mujer?
 
-[Foo Medical](https://foomedical.com/) is a **ready to use medical practice sample app** that's open source. It's meant for developers to clone, customize and run.
+[Programa Mujer](https://mujer.epa-bienestar.com.ar/) es una iniciativa de EPA Bienestar IA donde adaptamos FooMedical de Medplum (Open Source).
 
-### Features
+### Características
 
-- Completely free and open-source
-- Secure and compliant [Medplum](https://www.medplum.com) backend, which is also open source
-- Patient registration and authentication
-- Health records
-  - Lab results
-  - Medications
-  - Vaccines
-  - Vitals
-- Patient-provider messaging
-- Care plans
-- Patient scheduling
-- All data represented in [FHIR](https://hl7.org/FHIR/)
+- Free & Open Source
+- Seguro y accesible a través del backend en [EPA Bienestar IA](https://app.epa-bienestar.com.ar)
+- Registro y Autenticación de Pacientes
+- Registros de Salud
+  - Resultados de Laboratorio
+  - Medicaciones
+  - Vacunas
+  - Signos Vitals
+- Mensajería entre Usuarios/Pacientes y Profesionales/Médicos
+- Planes de Atención
+- Calendario de consultas
+- Todos los datos representados en [FHIR](https://hl7.org/FHIR/)
 
-Foo Medical is designed to be forked and customized for your business' needs. Register on [foomedical.com](https://foomedical.com/) to see it in action.
+Mujer está diseñado para "clonar" y "personaliz" según las necesidades de su negogocio. Registro en [Programa Mujer](https://mujer.epa-bienestar.com.ar/register) para ver la demo en acción
 
-### Getting Started
+### Cómo empezar
 
-First, [fork](https://github.com/medplum/foomedical/fork) and clone the repo.
+Primero, [fork](https://github.com/drdalessandro/mujer/fork) y clone el repositorio.
 
-Next, install the app from your terminal
+A continuación, instale la aplicación en su terminal.
 
 ```bash
 npm install
 ```
 
-Next, run the app
+Luego, ejecute la WebApp
 
 ```bash
 npm run dev
 ```
 
-This app should run on `http://localhost:3000/`
+Esta aplicación debería ejecutarse en `http://localhost:3000/`
 
 Log into the app on localhost using the same credentials you created on [foomedical.com](https://foomedical.com/) and you are ready to start customizing.
-
-### Deploying your app
-
-To get started deploying your app we recommend making an account on [Vercel](https://vercel.com/), free accounts are available.
-
-- Create a [New Project](https://vercel.com/new) on Vercel
-- Link your Github account and load in your forked Foo Medical repository
-- All your settings should be preset, just click Deploy
 
 ### Account Setup
 
