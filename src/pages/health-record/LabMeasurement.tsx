@@ -166,7 +166,7 @@ const LabMeasurement = (): JSX.Element | null => {
 
   return (
     <>
-      <LinkToPreviousPage url="/health-record/lab-results/reports" label="Laboratorio" />
+      <LinkToPreviousPage url="/laboratory/reports" label="Laboratorio" />
       <div className="mt-5 flex flex-col items-start space-y-4 sm:flex-row sm:items-center sm:justify-between sm:space-y-0">
         <h1 className="text-3xl font-extrabold">{title}</h1>
         <Button marginsUtils="ml-0" label="Agregar Medición" action={handleAddMeasurement} />
